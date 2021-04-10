@@ -10,4 +10,7 @@ describe "replaceDots" do
   it "works for not dots" do
     expect(replaceDots("not dots")).to eq "not dots"
   end
+  it "works for all dots" do
+    expect(replaceDots("...............")).to eq "---------------"
+  end
 end
