@@ -10,4 +10,7 @@ describe "people_with_age_drink" do
   it "returns drink tody if minimun age" do
     expect(people_with_age_drink(20)).to eq "drink beer" 
   end
+  it "returns drink tody if minimun age" do
+    expect(people_with_age_drink(30)).to eq "drink wisky" 
+  end
 end
