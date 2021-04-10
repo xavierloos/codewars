@@ -1,3 +1,4 @@
+# https://www.codewars.com/kata/56170e844da7c6f647000063/train/ruby
 # Kids drink toddy.
 # Teens drink coke.
 # Young adults drink beer.
@@ -17,3 +18,10 @@
 # 18 --> "drink beer"
 # 20 --> "drink beer"
 # 30 --> "drink whisky"
+
+def people_with_age_drink(old)
+  #your code here
+  if old < 14 
+     return "drink toddy"
+  end
+end
