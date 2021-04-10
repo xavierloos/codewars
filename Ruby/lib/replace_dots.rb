@@ -1,3 +1,3 @@
 def replaceDots(str)
-  str.sub(/./, '-')
+  str.gsub(/[.]/, '-')
 end
