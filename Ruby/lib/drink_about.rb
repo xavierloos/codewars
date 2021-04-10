@@ -23,5 +23,7 @@ def people_with_age_drink(old)
   #your code here
   if old < 14 
      return "drink toddy"
+  elsif old < 18 
+      return "drink coke"
   end
 end
