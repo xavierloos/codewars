@@ -4,4 +4,5 @@
 
 def make_upper_case(str)
   # Code here
+  str.upcase
 end
