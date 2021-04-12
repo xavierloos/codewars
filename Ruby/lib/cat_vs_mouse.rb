@@ -9,4 +9,5 @@
 
 def cat_mouse(x)
   # Your code here
+  "Escaped!"
 end
