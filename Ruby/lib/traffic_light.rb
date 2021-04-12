@@ -9,6 +9,7 @@
 def update_light(current)
   # your code here
   case current
-  when "green" then "yellow"
+    when "green" then "yellow"
+    when "yellow" then "red"
   end
 end
