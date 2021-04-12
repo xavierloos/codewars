@@ -9,5 +9,6 @@
 
 def cat_mouse(x)
   # Your code here
-  "Escaped!"
+  x = x.split("")
+  x[3] == "m" ? "Caught!" : "Escaped!"
 end
