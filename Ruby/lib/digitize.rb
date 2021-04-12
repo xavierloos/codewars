@@ -11,9 +11,5 @@
 # 8675309 => [8,6,7,5,3,0,9]
 
 def digitize(n)
-  arr = [] 
-  for num in n.to_s.split("")
-    arr << num.to_i
-  end
-  arr
+  n.to_s.chars.map(&:to_i)
 end
