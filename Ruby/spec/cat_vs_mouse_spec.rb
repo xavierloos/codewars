@@ -7,4 +7,7 @@ describe "cat_mouse" do
   it "'s been caught" do
     expect(cat_mouse('C..m')).to eq "Caught!" 
   end
+  it "escapes" do
+    expect(cat_mouse('C.....m')).to eq "Escaped!" 
+  end
 end
