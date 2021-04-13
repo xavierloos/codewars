@@ -17,9 +17,6 @@
 
 def odd_or_even(array)
   # your code here
-  if array.inject(0){ |sum,x| sum + x } == 0
-    return "even"
-  else
-    "odd"
-  end
+  return "odd" if array.inject(0){ |sum,x| sum + x }.odd?
+  return "even"
 end
