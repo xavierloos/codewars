@@ -3,5 +3,9 @@
 
 def alternate_case(s)
   #your code here
-  s.downcase
+  alter = []
+  for letter in s.split("")
+    letter == letter.upcase() ? alter << letter.downcase : alter << letter.upcase
+  end
+  alter.join
 end
