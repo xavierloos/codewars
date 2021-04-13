@@ -7,8 +7,11 @@ describe "odd_or_even" do
   # it "returns odd" do
   #   expect(odd_or_even([1])).to eq "odd"
   # end
-  it "returns the sum of the array" do
-    expect(odd_or_even([1,2,3])).to eq 6
+  # it "returns the sum of the array" do
+  #   expect(odd_or_even([1,2,3])).to eq 6
+  # end
+  it "returns even when empty" do
+    expect(odd_or_even([])).to eq "even"
   end
   
 end
