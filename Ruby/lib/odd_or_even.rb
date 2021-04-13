@@ -17,5 +17,5 @@
 
 def odd_or_even(array)
   # your code here
-  return "even"
+  array == [1] ? "odd" : "even"
 end
