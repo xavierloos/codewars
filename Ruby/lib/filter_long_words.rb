@@ -4,5 +4,9 @@
 
 def filter_long_words(sentence, n)
   #your code here
-  ['quick', 'brown', 'jumps']
+  words = []
+  for word in sentence.split(" ")
+    words << word if word.length > n
+  end
+  words
 end
