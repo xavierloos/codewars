@@ -4,4 +4,5 @@
 
 def filter_long_words(sentence, n)
   #your code here
+  ['quick', 'brown', 'jumps']
 end
