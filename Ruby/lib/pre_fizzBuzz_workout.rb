@@ -8,6 +8,7 @@
 
 def pre_fizz(n)
   # Your code here
+  [n]
 end
 
 #What are the inputs to this function?
