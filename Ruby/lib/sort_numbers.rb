@@ -7,4 +7,5 @@
 
 def solution(nums)
   # Your code here
+  nums.sort
 end
