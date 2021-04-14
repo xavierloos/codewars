@@ -10,4 +10,7 @@ describe "solution" do
   it "is an ordered list" do
     expect(solution([20, 2, 10])).to eq [2, 10, 20]
   end
+  it "works with empty arrays" do
+    expect(solution([])).to eq []
+  end
 end
