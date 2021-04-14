@@ -8,7 +8,11 @@
 
 def pre_fizz(n)
   # Your code here
-  [n]
+  arr = []
+  1.upto(n) do |i|
+    arr << i
+  end
+  arr
 end
 
 #What are the inputs to this function?
