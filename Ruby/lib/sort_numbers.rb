@@ -7,5 +7,5 @@
 
 def solution(nums)
   # Your code here
-  nums != nil ? nums.sort : []
+  nums ? nums.sort : []
 end
