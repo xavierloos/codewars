@@ -10,4 +10,7 @@ describe "get_even_numbers" do
   it "returns empty" do
     expect(get_even_numbers([1])).to eq []
   end
+  it "returns 2" do
+    expect(get_even_numbers([1, 2])).to eq [2]
+  end
 end
