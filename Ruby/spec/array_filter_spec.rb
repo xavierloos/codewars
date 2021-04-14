@@ -7,4 +7,7 @@ describe "get_even_numbers" do
   it "works with empty array" do
     expect(get_even_numbers([])).to eq []
   end
+  it "returns empty" do
+    expect(get_even_numbers([1])).to eq []
+  end
 end
