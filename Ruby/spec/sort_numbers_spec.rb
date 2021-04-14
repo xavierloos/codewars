@@ -7,4 +7,7 @@ describe "solution" do
   it "shoul return an empty array if nil" do
     expect(solution(nil)).to eq []
   end
+  it "is an ordered list" do
+    expect(solution([20, 2, 10])).to eq [2, 10, 20]
+  end
 end
