@@ -4,5 +4,5 @@
 
 def get_even_numbers(arr)
   # your code here
-  [2,4,6]
+  arr.delete_if { |a| a if a.odd? }
 end
