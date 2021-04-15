@@ -1,6 +1,9 @@
 require  "remove_character"
 
 describe "remove_char" do
+  it "passes a string" do
+    expect(remove_char('RSpec')).to be_a_kind_of(String) 
+  end
   it "deletes first and last" do
     expect(remove_char("eloquent")).to eq "loquen"
   end
@@ -15,9 +18,6 @@ describe "remove_char" do
   end
   it "deletes first and last" do
     expect(remove_char('RSpec')).to eq 'Spe'
-  end
-  it "passes a string" do
-    expect(remove_char('RSpec')).to be_a_kind_of(String) 
   end
   it "deletes first and last" do
     expect(remove_char('Javier')).to eq 'avie'
