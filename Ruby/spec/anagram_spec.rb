@@ -8,6 +8,7 @@ describe "isAnagram?" do
       expect(isAnagram?("Debit card", "Bacredit")).to eq false
     end
     it 'returns true if contains the same letters ' do
-      expect(isAnagram?("card", "ardc")).to eq false
+      expect(isAnagram?("card", "ardc")).to eq true
     end
+    
 end
