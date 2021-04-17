@@ -9,10 +9,5 @@ def isAnagram?(str1, str2)
 
     end
   end
-  if count_letter == str2.length
-   true
-  else
-    false
-  end
-
+  count_letter == str2.length ?  true : false
 end
