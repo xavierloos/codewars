@@ -6,12 +6,13 @@ def isAnagram?(str1, str2)
   str1.each_char do |l|
     if str2.downcase.include?(l.downcase)
       count_letter += 1
+      
     end
   end
   if count_letter == str2.length
     return true
   else
-    
+
     return false
   end
 
