@@ -4,9 +4,9 @@ def isAnagram?(str1, str2)
   str1 = str1.delete(' ') # Delete the spaces in the string
   str2 = str2.delete(' ') # Delete the spaces in the string
   str1.each_char do |l|
-    if str2.downcase.include?(l.downcase)
-      count_letter += 1
-    end
+    count_letter += 1 if str2.downcase.include?(l.downcase)
+      
+  
   end
   count_letter == str2.length ?  true : false
 end
