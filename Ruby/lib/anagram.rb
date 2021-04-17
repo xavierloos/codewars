@@ -12,7 +12,7 @@ def isAnagram?(str1, str2)
   if count_letter == str2.length
    true
   else
-    return false
+    false
   end
 
 end
