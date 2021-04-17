@@ -13,5 +13,4 @@ def isAnagram?(str1, str2)
   else
     return false
   end
-  
 end
