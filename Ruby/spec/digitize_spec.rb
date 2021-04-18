@@ -8,5 +8,4 @@ describe "digitize" do
     expect(digitize(1230)).to eq  [1,2,3, 0]
     expect(digitize(8675309)).to eq  [8,6,7,5,3,0,9]
   end
-
 end
