@@ -9,5 +9,4 @@ def filter_long_words(sentence, n)
     words << word if word.length > n
   end
   words
-  
 end
