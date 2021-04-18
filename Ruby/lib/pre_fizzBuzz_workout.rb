@@ -13,6 +13,7 @@ def pre_fizz(n)
     arr << i
   end
   arr
+  
 end
 
 #What are the inputs to this function?
