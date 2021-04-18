@@ -10,5 +10,4 @@ describe "filter_long_words" do
   it "returns 'quick', 'brown' and 'jumps' of the sentence" do
     expect(filter_long_words("Be very careful with the path that you choose to take", 6)).to eq ['careful']
   end
-
 end
