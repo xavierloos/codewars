@@ -11,4 +11,5 @@ def cat_mouse(x)
   # Your code here
   x = x.split("")
   x[1] == "m" || x[2] == "m" || x[3] == "m" || x[4] == "m"? "Caught!" : "Escaped!"
+  
 end
