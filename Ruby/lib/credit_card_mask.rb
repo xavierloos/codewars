@@ -16,5 +16,5 @@
 
 def maskify(cc)
   # your beautiful code goes here
-  "############5616"
+  index = cc.chars.length - 4
 end
