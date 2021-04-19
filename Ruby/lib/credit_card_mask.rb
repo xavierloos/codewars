@@ -13,3 +13,7 @@
 # # "What was the name of your first pet?"
 # maskify('Skippy')                                   # should return '##ippy'
 # maskify('Nananananananananananananananana Batman!') # should return '####################################man!'
+
+def maskify(cc)
+  # your beautiful code goes here
+end
