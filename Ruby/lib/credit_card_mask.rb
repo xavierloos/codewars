@@ -17,4 +17,5 @@
 def maskify(cc)
   # your beautiful code goes here
   cc.chars.each_with_index.map {|x,i| i < cc.chars.length - 4 ? x.replace("#") : x }.join
+  
 end
