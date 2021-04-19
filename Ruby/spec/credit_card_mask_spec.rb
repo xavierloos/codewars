@@ -7,4 +7,7 @@ describe "maskify" do
   it "should return 1 because it's not very long" do
     expect(maskify('1')).to eq '1'
   end
+  it "should return empty" do
+    expect(maskify('')).to eq ''
+  end
 end
