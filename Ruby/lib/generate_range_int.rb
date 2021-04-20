@@ -15,5 +15,5 @@
 
 def generate_range(min, max, step)
   # Your code here
-
+  arr = []  #Create an array 
 end
