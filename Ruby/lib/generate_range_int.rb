@@ -12,3 +12,8 @@
 # min < max
 # step > 0
 # the range does not HAVE to include max (depending on the step)
+
+def generate_range(min, max, step)
+  # Your code here
+
+end
