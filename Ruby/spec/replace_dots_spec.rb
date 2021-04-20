@@ -7,10 +7,11 @@ describe "replaceDots" do
   it "works for empty strings" do
     expect(replaceDots(" ")).to eq " "
   end
+  
   it "works for not dots" do
     expect(replaceDots("not dots")).to eq "not dots"
   end
-  
+
   it "works for all dots" do
     expect(replaceDots("...............")).to eq "---------------"
   end
