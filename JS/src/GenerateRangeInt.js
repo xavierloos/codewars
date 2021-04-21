@@ -20,4 +20,5 @@ function generateRange(min, max, step){
     arr.push(min)
     min += step
   }
+  return arr
 }
