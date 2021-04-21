@@ -15,4 +15,5 @@
 
 function generateRange(min, max, step){
   //  Your code here
+
 }
