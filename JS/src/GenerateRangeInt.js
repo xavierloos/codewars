@@ -16,4 +16,8 @@
 function generateRange(min, max, step){
   //  Your code here
   arr = []
+  while (min <= max) {
+    arr.push(min)
+    min += step
+  }
 }
