@@ -5,4 +5,7 @@ describe("alternateCase", () => {
   it("should return a string", () => {
     expect(alternateCase("abc")).toBeInstanceOf(String);
   });
+  it("should return a string", () => {
+    expect(alternateCase("aBc")).toEqual("AbC");
+  });
 });
