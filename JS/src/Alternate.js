@@ -8,4 +8,5 @@ function alternateCase(s) {
   for (let i = 0; i < s.split("").length; i++) {
     s[i] == s[i].toUpperCase() ? alter.push(s[i].toLowerCase()) : alter.push(s[i].toUpperCase())
   }
+  return alter
 }
