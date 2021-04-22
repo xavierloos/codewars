@@ -4,4 +4,5 @@
 
 function alternateCase(s) {
   // Your code here
+  let alter = []
 }
