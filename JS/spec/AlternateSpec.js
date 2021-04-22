@@ -14,4 +14,7 @@ describe("alternateCase", () => {
   it("should return empty", () => {
     expect(alternateCase(" ")).toEqual(" ");
   });
+  it("should return the number", () => {
+    expect(alternateCase("1")).toEqual("1");
+  });
 });
