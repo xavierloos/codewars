@@ -5,4 +5,7 @@ describe("_isAnagram", () => {
   it("return false if contains differents letter", () => {
     expect(_isAnagram("hello", "hola")).toEqual(false)
   })
+  it("should return false", () => {
+    expect(_isAnagram("Javier", "Lopez")).toEqual(false)
+  })
 })
