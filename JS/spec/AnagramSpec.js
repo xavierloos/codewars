@@ -3,6 +3,6 @@ describe("_isAnagram", () => {
     expect(_isAnagram("Debit card", "Bad credit")).toEqual(true)
   });
   it("return false if contains differents letter", () => {
-    expect(_isAnagram("Debit card", "Bacredit")).toEqual(false)
+    expect(_isAnagram("hello", "hola")).toEqual(false)
   })
 })
