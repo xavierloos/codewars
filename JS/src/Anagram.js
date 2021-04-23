@@ -4,8 +4,8 @@ function _isAnagram(str1, str2) {
   str1 = str1.toLowerCase().split("").sort()
   str2 = str2.toLowerCase().split("").sort()
   if (str1.join("") == str2.join("")) {
-    console.log(true)
+    return true
   } else {
-    console.log(false)
+    return false
   }
 }
