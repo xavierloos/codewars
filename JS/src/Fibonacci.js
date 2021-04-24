@@ -7,5 +7,11 @@ function fibo(res, len) {
     num2 = res[1],
     next,
     count = 2
-
+  while (count < len) {
+    next = num1 + num2
+    num1 = num2
+    num2 = next
+    res.push(next)
+    count++
+  }
 }
