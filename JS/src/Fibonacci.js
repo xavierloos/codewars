@@ -14,4 +14,5 @@ function fibo(res, len) {
     res.push(next)
     count++
   }
+  return res;
 }
