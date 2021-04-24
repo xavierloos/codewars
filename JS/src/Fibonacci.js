@@ -2,6 +2,10 @@
 
 // OUTPUT = [ 0,   1,   1,  2,  3,  5, 8,  13,  21, 34, 55, 89, 144, 233, 377]
 
-function fibo(res, len){
+function fibo(res, len) {
+  var num1 = res[0],
+    num2 = res[1],
+    next,
+    count = 2
 
 }
