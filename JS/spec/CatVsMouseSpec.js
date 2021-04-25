@@ -11,4 +11,7 @@ describe("catMouse", () => {
   it("should escaped", () => {
     expect(catMouse('C.....m')).toEqual("Escaped!")
   })
+  it("should be caught!", () => {
+    expect(catMouse('C.m..')).toEqual("Caught!")
+  })
 })
