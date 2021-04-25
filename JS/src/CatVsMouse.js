@@ -10,9 +10,8 @@
 
 function catMouse(x) {
   // Your code here
-  arr = x.split("")
   for (let i = 0; i <= 4; i++) {
-    if (arr[i] == "m") {
+    if (x[i].split("") == "m") {
       return "Caught!"
     }
   }
