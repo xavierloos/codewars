@@ -11,8 +11,8 @@
 function catMouse(x) {
   // Your code here
   arr = x.split("")
-  if (arr[2] == "m" || arr[3] == "m") {
+  if (arr[1] == "m" || arr[2] == "m" || arr[3] == "m") {
     return "Caught!"
   }
- return "Escaped!"
+  return "Escaped!"
 }
