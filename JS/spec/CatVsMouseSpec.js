@@ -5,4 +5,7 @@ describe("catMouse", () => {
   it("should return a string", () => {
     expect(catMouse('C....m')).toBeInstanceOf(String)
   })
+  it("should be caught!", () => {
+    expect(catMouse('C..m')).toEqual("Caught!")
+  })
 })
