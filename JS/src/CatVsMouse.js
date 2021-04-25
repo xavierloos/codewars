@@ -11,8 +11,10 @@
 function catMouse(x) {
   // Your code here
   arr = x.split("")
-  if (arr[1] == "m" || arr[2] == "m" || arr[3] == "m" || arr[4] == "m") {
-    return "Caught!"
+  for (let i = 0; i <= 4; i++) {
+    if (arr[i] == "m") {
+      return "Caught!"
+    }
   }
   return "Escaped!"
 }
