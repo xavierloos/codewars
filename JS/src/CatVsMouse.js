@@ -10,4 +10,5 @@
 
 function catMouse(x) {
   // Your code here
+  arr = x.split("")
 }
