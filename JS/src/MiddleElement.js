@@ -15,7 +15,7 @@
 
 var gimme = function (inputArray) {
   // Implement this function
-  let arr = inputArray.concat().sort();
+  let arr = inputArray.concat().sort(sortNum);
   for (let x = 0; x < inputArray.length; x++) {
     if(arr[1]==inputArray[x]){
       return inputArray.indexOf(arr[1])
