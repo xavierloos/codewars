@@ -13,7 +13,7 @@
 // gimme([5, 10, 14]) => 1
 // 10 is the number that fits between 5 and 14 and the index of 10 in the input array is 1.
 
-var gimme = function (inputArray) {
+var gimme = (inputArray) =>{
   // Implement this function
   let arr = inputArray.concat().sort(sortNum);
   for (let x = 0; x < inputArray.length; x++) {
@@ -22,6 +22,6 @@ var gimme = function (inputArray) {
     }
   }
 };
-var sortNum = function (a,b) {
+var sortNum = (a,b) => {
   return a > b ? 1 : b > a ? -1 : 0;
 };
