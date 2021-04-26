@@ -18,7 +18,7 @@ var gimme = function (inputArray) {
   let arr = inputArray.concat().sort();
   for (let x = 0; x < inputArray.length; x++) {
     if(arr[1]==inputArray[x]){
-      
+      return inputArray.indexOf(arr[1])
     }
   }
 };
