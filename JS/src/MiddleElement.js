@@ -23,5 +23,7 @@ var gimme = function (inputArray) {
   }
 };
 var sortNum = function (a,b) {
-  
+  if (a > b) {
+    return 1
+  }
 };
