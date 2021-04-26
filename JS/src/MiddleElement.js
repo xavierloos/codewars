@@ -23,11 +23,5 @@ var gimme = function (inputArray) {
   }
 };
 var sortNum = function (a,b) {
-  if (a > b) {
-    return 1
-  } else if (a < b) {
-    return -1
-  } else {
-    return 0
-  }
+  return a > b ? 1 : b > a ? -1 : 0;
 };
