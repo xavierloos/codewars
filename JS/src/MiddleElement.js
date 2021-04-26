@@ -22,3 +22,6 @@ var gimme = function (inputArray) {
     }
   }
 };
+var sortNum = function (a,b) {
+  
+};
