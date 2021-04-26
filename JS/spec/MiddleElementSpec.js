@@ -5,4 +5,7 @@ describe("MiddleElement", () => {
     it("shoud find the index of middle element", () => {
       expect(gimme([5, 7, 9])).toEqual(1);
     });
+    it("shoud find the index of middle element", () => {
+      expect(gimme([5, 10, 14])).toEqual(1);
+    });
 });
