@@ -15,5 +15,5 @@
 
 var gimme = function (inputArray) {
   // Implement this function
-  
+  return 0;
 };
