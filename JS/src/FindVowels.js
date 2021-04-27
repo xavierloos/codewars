@@ -16,5 +16,5 @@
 
 function vowelIndices(word) {
   //your code here
-  return []
+  arr = word.split("")
 }
