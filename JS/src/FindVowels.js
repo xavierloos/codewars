@@ -20,6 +20,6 @@ function vowelIndices(word) {
   let vow = ["a", "e", "i", "o", "u", "y"]
   let found = []
   for (let x = 0; x < arr.lenght; x++){
-    
+    let index = x+1
   }
 }
