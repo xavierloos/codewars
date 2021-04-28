@@ -21,9 +21,7 @@ function vowelIndices(word) {
   let found = []
   for (let x = 0; x < arr.length; x++) {
     for (let v = 0; v < vow.length; v++) {
-      if (arr[x] == vow[v]) {
-        found.push(x + 1)
-      }
+      if (arr[x] == vow[v]) { found.push(x + 1) }
     }
   }
   return found
