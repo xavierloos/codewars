@@ -25,5 +25,6 @@ function vowelIndices(word) {
       found.push(index)
     }
   }
+  return found
   
 }
