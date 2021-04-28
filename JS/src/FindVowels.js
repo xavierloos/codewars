@@ -23,7 +23,7 @@ function vowelIndices(word) {
     let index = x + 1
     for (let v = 0; v < vow.lenght; v++) {
       if (arr[x] == vow[v]) {
-        
+        found.push(index)
       }
     }
   }
