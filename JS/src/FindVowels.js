@@ -27,5 +27,5 @@ function vowelIndices(word) {
       }
     }
   }
-  
+  return found
 }
