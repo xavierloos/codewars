@@ -19,7 +19,11 @@ function vowelIndices(word) {
   let arr = word.split("")
   let vow = ["a", "e", "i", "o", "u", "y"]
   let found = []
-  for (let x = 0; x < arr.lenght; x++){
-    let index = x+1
+  for (let x = 0; x < arr.lenght; x++) {
+    let index = x + 1
+    for (let v = 0; v < vow.lenght; v++) {
+      
+    }
   }
+  
 }
