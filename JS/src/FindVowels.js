@@ -16,7 +16,7 @@
 
 function vowelIndices(word) {
   //your code here
-  let arr = word.split("")
+  let arr = word.toLowerCase().split("")
   let vow = ["a", "e", "i", "o", "u", "y"]
   let found = []
   for (let x = 0; x < arr.length; x++) {
