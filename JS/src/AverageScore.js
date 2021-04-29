@@ -8,4 +8,5 @@ function average(scores) {
     return a + b
   });
   res = Math.round(sum / scores.length)
+  return res
 }
