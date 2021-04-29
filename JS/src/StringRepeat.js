@@ -6,5 +6,9 @@
 // repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
 
 function repeatStr (n, s) {
-  return "***"
+  arr = []
+  for(let x = 0; x < n; x++){
+    arr.push(s)
+  }
+  return arr.join("")
 }
