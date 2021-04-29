@@ -4,5 +4,7 @@
 
 function average(scores) {
   // code to calculate the average
-  return 73
+  sum = scores.reduce((a, b) => {
+    return a + b
+  });
 }
