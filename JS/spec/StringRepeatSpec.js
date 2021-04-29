@@ -5,4 +5,7 @@ describe("repeatStr", () => {
   it("should return ***", () => {
     expect(repeatStr(3, "*")).toEqual("***")
   })
+  it("should return ***", () => {
+    expect(repeatStr(5, "#")).toEqual("#####")
+  })
 })
