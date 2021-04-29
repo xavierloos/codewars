@@ -7,6 +7,5 @@ function average(scores) {
   sum = scores.reduce((a, b) => {
     return a + b
   });
-  res = Math.round(sum / scores.length)
-  return res
+  return Math.round(sum / scores.length)
 }
