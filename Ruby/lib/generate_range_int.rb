@@ -7,7 +7,6 @@
 
 # generate_range(2, 10, 2) # should return array of [2,4,6,8,10]
 # generate_range(1, 10, 3) # should return array of [1,4,7,10]
-
 # Note
 # min < max
 # step > 0
