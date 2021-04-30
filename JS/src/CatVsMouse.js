@@ -11,9 +11,7 @@
 function catMouse(x) {
   // Your code here
   for (let i = 0; i <= 4; i++) {
-    if (x[i].split("") == "m") {
-      return "Caught!"
-    }
+    if (x[i].split("") == "m") { return "Caught!" }
   }
   return "Escaped!"
 }
