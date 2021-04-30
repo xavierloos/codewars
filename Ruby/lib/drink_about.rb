@@ -6,7 +6,6 @@
 # Make a function that receive age, and return what they drink.
 
 # Rules:
-
 # Children under 14 old.
 # Teens under 18 old.
 # Young under 21 old.
