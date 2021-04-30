@@ -6,8 +6,6 @@
 
 function repeatStr (n, s) {
   arr = []
-  for(let x = 0; x < n; x++){
-    arr.push(s)
-  }
+  for(let x = 0; x < n; x++){ arr.push(s) }
   return arr.join("")
 }
