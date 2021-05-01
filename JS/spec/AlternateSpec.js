@@ -14,11 +14,16 @@ describe("alternateCase", () => {
   it("should return a HELLO WORLD", () => {
     expect(alternateCase("hello world")).toEqual("HELLO WORLD");
   });
-  
+
   it("should return empty", () => {
     expect(alternateCase(" ")).toEqual(" ");
   });
+
   it("should return the number", () => {
     expect(alternateCase("1")).toEqual("1");
+  });
+
+  it("should return the number", () => {
+    expect(alternateCase("13")).toEqual("13");
   });
 });
