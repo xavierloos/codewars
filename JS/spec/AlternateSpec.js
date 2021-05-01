@@ -6,10 +6,11 @@ describe("alternateCase", () => {
   it("should return a string", () => {
     expect(alternateCase("abc")).toBeInstanceOf(String);
   });
-  
+
   it("should return AbC", () => {
     expect(alternateCase("aBc")).toEqual("AbC");
   });
+  
   it("should return a HELLO WORLD", () => {
     expect(alternateCase("hello world")).toEqual("HELLO WORLD");
   });
