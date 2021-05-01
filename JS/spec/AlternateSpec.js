@@ -10,10 +10,11 @@ describe("alternateCase", () => {
   it("should return AbC", () => {
     expect(alternateCase("aBc")).toEqual("AbC");
   });
-  
+
   it("should return a HELLO WORLD", () => {
     expect(alternateCase("hello world")).toEqual("HELLO WORLD");
   });
+  
   it("should return empty", () => {
     expect(alternateCase(" ")).toEqual(" ");
   });
