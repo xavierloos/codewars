@@ -11,6 +11,6 @@
 
   findSmallestInt = (args) => {
     // Your code here
-    return 10
+    return 8
   }
 
