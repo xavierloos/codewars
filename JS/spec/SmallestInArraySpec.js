@@ -14,5 +14,8 @@ describe("SmallestIntegerFinder",()=> {
   it("Should return the smallest int 0", () => {
     expect(findSmallestInt([78,56,232,12,0])).toEqual(0)
   })
+  it("Should return the smallest int 1", () => {
+    expect(findSmallestInt([1,56,232,12,8])).toEqual(1)
+  })
 })
 
