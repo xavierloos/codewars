@@ -11,9 +11,9 @@
 
   findSmallestInt = (args) => {
     // Your code here
-    
+    sorted = args.sort(sortNum)
   }
-  
+
   sortNum = (a,b) => {
     return a > b ? 1 : b > a ? -1 : 0;
   };
