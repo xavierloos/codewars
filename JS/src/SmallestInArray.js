@@ -11,7 +11,8 @@
 
   findSmallestInt = (args) => {
     // Your code here
-    sorted = args.sort(sortNum)
+    let sorted = args.sort(sortNum)
+    return sorted[0]
   }
 
   sortNum = (a,b) => {
