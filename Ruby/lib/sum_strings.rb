@@ -13,5 +13,6 @@
 
 def sum_str(a, b)
   #your code here
-  a.to_s
+  a.to_i
+  b.to_i
 end
