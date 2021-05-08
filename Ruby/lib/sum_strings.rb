@@ -6,3 +6,7 @@
 
 # "4",  "5" --> "9"
 # "34", "5" --> "39"
+
+# Notes:
+
+# If either input is an empty string, consider it as zero.
