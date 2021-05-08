@@ -10,3 +10,8 @@
 # Notes:
 
 # If either input is an empty string, consider it as zero.
+
+def sum_str(a, b)
+  #your code here
+  
+end
