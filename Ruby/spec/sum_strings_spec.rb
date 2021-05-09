@@ -13,7 +13,6 @@ describe "sum_str" do
   it "returns 9" do
     expect(sum_str("","9")).to eq  "9"
   end
-
   it "returns 0" do
     expect(sum_str("","")).to eq  "0"
   end
