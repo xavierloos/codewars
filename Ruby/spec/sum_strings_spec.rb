@@ -16,4 +16,5 @@ describe "sum_str" do
   it "returns 0" do
     expect(sum_str("","")).to eq  "0"
   end
+  
 end
