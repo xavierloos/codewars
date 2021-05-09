@@ -7,7 +7,6 @@ describe "sum_str" do
   it "returns a string" do
     expect(sum_str("4","5")).to be_a_kind_of(String) 
   end
-
   it "returns 39" do
     expect(sum_str("34","5")).to eq  "39"
   end
