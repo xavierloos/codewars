@@ -6,5 +6,8 @@
 
 def quarter_of(month)
   # code here
-  1
+  case month
+  when 1,2,3 then return 1
+  else return 2
+  end
 end
