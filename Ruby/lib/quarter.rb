@@ -6,5 +6,5 @@
 
 def quarter_of(month)
   # code here
-  1
+  5
 end
