@@ -6,4 +6,7 @@ describe "quarter_of" do
   it "shoul retun a number" do
     expect(quarter_of(3)).to equal(1)
   end
+  it "shoul retun a number" do
+    expect(quarter_of(5)).to equal(2)
+  end
 end
