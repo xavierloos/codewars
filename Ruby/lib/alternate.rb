@@ -8,4 +8,5 @@ def alternate_case(s)
     letter == letter.upcase() ? alter << letter.downcase : alter << letter.upcase
   end
   alter.join
+  
 end
