@@ -11,7 +11,6 @@ def quarter_of(month)
   when 4,5,6 then return 2
   when 7,8,9 then return 3
   else return 4
-    
   end
 end
 
