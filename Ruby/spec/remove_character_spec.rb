@@ -25,5 +25,4 @@ describe "remove_char" do
   it "deletes first and last" do
     expect(remove_char('Lopez')).to eq 'ope'
   end
-  
 end
