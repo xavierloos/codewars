@@ -10,7 +10,6 @@ describe "alternate_case" do
   it "returns 'I like making katas very much'" do
     expect(alternate_case("i LIKE MAKING KATAS VERY MUCH")).to eq "I like making katas very much"
   end
-  
   describe "additional test" do
     it "should pass all the test" do
       expect(alternate_case("HuMpTy DuMpTy SaT On A WaLl")).to eq "hUmPtY dUmPtY sAt oN a wAlL"
