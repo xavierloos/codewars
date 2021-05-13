@@ -11,5 +11,14 @@ def quarter_of(month)
   when 4,5,6 then return 2
   when 7,8,9 then return 3
   else return 4
+    
   end
 end
+
+<a href="https://xavierloos.github.io/" title="Website" target="_blank">
+  
+  ![](https://via.placeholder.com/1000/0000FF/808080?text=See+My+Website)
+  
+</a>
+
+1200x350/c5d5dd/FFFFFF
