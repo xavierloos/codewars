@@ -6,6 +6,7 @@ describe "quarter_of" do
   it "shoul retun 1" do
     expect(quarter_of(3)).to equal(1)
   end
+
   it "shoul retun 2" do
     expect(quarter_of(5)).to equal(2)
   end
@@ -14,5 +15,8 @@ describe "quarter_of" do
   end
   it "shoul retun 4" do
     expect(quarter_of(10)).to equal(4)
+  end
+  it "shoul retun 4" do
+    expect(quarter_of(12)).to equal(4)
   end
 end
