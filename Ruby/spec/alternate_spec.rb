@@ -4,6 +4,9 @@ describe "alternate_case" do
   it "returns abc" do
     expect(alternate_case("ABC")).to eq "abc"
   end
+  it "returns ABC" do
+    expect(alternate_case("abc")).to eq "ABC"
+  end
   it "returns 'hELLO wORLD'" do
     expect(alternate_case("Hello World")).to eq "hELLO wORLD"
   end
