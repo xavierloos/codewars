@@ -15,4 +15,6 @@ def atm total, denominations
   raw_data.map do |key, value|
     raw_data[k] = v.first
   end
+
+  raw_data
 end
