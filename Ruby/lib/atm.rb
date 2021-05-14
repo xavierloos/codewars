@@ -7,6 +7,7 @@
 
 def atm total, denominations
   # Your code here
+ 
   raw_data = denominations.inject({}) do | hash, denomination|
     hash[denomination] = total.divmod(denomination)
     total -= total.divmod(denomination).first * denomination
