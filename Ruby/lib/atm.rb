@@ -12,7 +12,7 @@ def atm total, denominations
     total -= total.divmod(denomination).first * denomination
     hash
   end
-  raw_data.map do |key, value|
+  raw_data.map do |k, v|
     raw_data[k] = v.first
   end
 
