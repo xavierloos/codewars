@@ -7,4 +7,7 @@
 
 def atm total, denomitaions
   # Your code here
+  raw_data = denomitaions.inject({}) do | hash, denomination|
+    
+  end
 end
