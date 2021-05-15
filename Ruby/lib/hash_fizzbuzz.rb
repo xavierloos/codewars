@@ -18,6 +18,8 @@ def fizzbuzz num
   1.upto(num).each do |x|
     if x % 3 == 0
       hash[x] = "fizz"
+    elsif x % 5 == 0
+        hash[x] = "buzz"
     else
       hash[x] = x
     end
