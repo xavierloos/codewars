@@ -16,7 +16,9 @@ def fizzbuzz num
   raise "Input invalid" if num < 1 
   hash = Hash.new
   1.upto(num).each do |x|
-    if x % 3 == 0
+    if x % 3 == 0 && x % 5 == 0
+      hash[x] = "fizzbuzz"
+    elsif x % 3 == 0
       hash[x] = "fizz"
     elsif x % 5 == 0
         hash[x] = "buzz"
