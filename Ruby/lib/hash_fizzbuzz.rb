@@ -10,3 +10,7 @@
 #   5=>Buzz,
 #   etc.
 # }
+
+def fizzbuzz num
+  # Your code here
+end
