@@ -13,4 +13,5 @@
 
 def fizzbuzz num
   # Your code here
+  {}
 end
