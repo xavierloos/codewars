@@ -27,5 +27,25 @@ describe "fizzbuzz" do
     expect(fizzbuzz 5).to eq final_hash
   end
 
+  it "should say fizzbuzz on the number 3" do
+    final_hash = {
+      1=>1,
+      2=>2,
+      3=>"fizz",
+      4=>4,
+      5=>"buzz"
+      6=>"fizz",
+      7=>2,
+      8=>8,
+      9=>"fizz",
+      10=>"buzz"
+      11=>11,
+      12=>"fizz",
+      13=>13,
+      14=>14,
+      15=>"fizzbuzz"
+    }
+    expect(fizzbuzz 15).to eq final_hash
+  end
   
 end
