@@ -11,7 +11,6 @@ describe "fizzbuzz" do
     final_hash = {
       1=>1,
       2=>2,
-      
       3=>"fizz"
     }
     expect(fizzbuzz 3).to eq final_hash
