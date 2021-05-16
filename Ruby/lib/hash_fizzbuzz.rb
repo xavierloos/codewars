@@ -14,7 +14,7 @@
 def fizzbuzz num
   # Your code here
   raise "Input invalid" if num < 1 
-  
+
   hash = Hash.new
 
   1.upto(num).each do |x|
@@ -28,5 +28,7 @@ def fizzbuzz num
       hash[x] = x
     end
   end
+
   hash
+  
 end
