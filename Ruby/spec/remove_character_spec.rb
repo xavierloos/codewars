@@ -16,10 +16,11 @@ describe "remove_char" do
   it "deletes first and last" do
     expect(remove_char('person')).to eq 'erso'
   end
-  
+
   it "deletes first and last" do
     expect(remove_char('HELLO')).to eq 'ELL'
   end
+  
   it "deletes first and last" do
     expect(remove_char('RSpec')).to eq 'Spe'
   end
