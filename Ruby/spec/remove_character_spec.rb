@@ -24,10 +24,11 @@ describe "remove_char" do
   it "deletes first and last" do
     expect(remove_char('RSpec')).to eq 'Spe'
   end
-  
+
   it "deletes first and last" do
     expect(remove_char('Javier')).to eq 'avie'
   end
+  
   it "deletes first and last" do
     expect(remove_char('Lopez')).to eq 'ope'
   end
