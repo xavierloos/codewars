@@ -8,11 +8,7 @@ def greater_than number, array
   # Your code here
   raise "Invalid number or negative" if !number.is_a? Numeric or number <=0
   raise "Invalid argument or empty" if !array.is_a? Array or array == []  
-  count = 0
-  for i in array
-    if i > number
-      count = count + 1
-    end
+  array.count do |item|
+    item > number
   end
-  count
 end
