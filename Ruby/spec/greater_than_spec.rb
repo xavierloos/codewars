@@ -11,7 +11,6 @@ describe "greater_than" do
   end
   
   it "should raise an error if the sec argument is not an array or empy" do
-    expect{greater_than "5", []}.to raise_error "Invalid argument or empty"
-    e
+    expect{greater_than 5, []}.to raise_error "Invalid argument or empty"
   end
 end
