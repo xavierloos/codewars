@@ -14,4 +14,9 @@ describe "greater_than" do
     expect{greater_than 5, []}.to raise_error "Invalid argument or empty"
     expect{greater_than 5, "[]"}.to raise_error "Invalid argument or empty"
   end
+
+  it "should return 3" do
+    expect(greater_than 5, [3,4,5,6,7,8]).to eq 3
+  end
+
 end
