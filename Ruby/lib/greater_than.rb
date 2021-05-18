@@ -6,6 +6,6 @@
 
 def greater_than number, array
   # Your code here
-  raise "Invalid number or negative" if !number.is_a? Numeric
+  raise "Invalid number or negative" if !number.is_a? Numeric or number <=0
   0
 end
