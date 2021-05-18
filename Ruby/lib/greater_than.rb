@@ -7,6 +7,6 @@
 def greater_than number, array
   # Your code here
   raise "Invalid number or negative" if !number.is_a? Numeric or number <=0
-  raise "Invalid argument or empty" if array == []
+  raise "Invalid argument or empty" if array == [] or !array.is_a? Array
   0
 end
