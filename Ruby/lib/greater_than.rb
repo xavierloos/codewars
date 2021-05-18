@@ -3,3 +3,7 @@
 # Example
 # Input                   Output
 # 5, [5,6,7,1,2] => 2 (5 is not greater than 5 so it does not count)
+
+def greater_than number, array
+  # Your code here
+end
