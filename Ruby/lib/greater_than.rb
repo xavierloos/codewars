@@ -6,4 +6,5 @@
 
 def greater_than number, array
   # Your code here
+  0
 end
