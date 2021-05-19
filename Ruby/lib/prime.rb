@@ -10,13 +10,9 @@ end
 
 def is_prime item
   return false if item == 1
-  number = item - 1
-  while number > 1
+  (2..(item-1)).each do |number|
     if item % number == 0
       return false
-      break
-    else
-      number = number - 1
     end
   end
   return true
