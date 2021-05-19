@@ -16,6 +16,9 @@ describe "count_primes" do
     it "returns false if first arg is 1" do
       expect(is_prime 1, 4 ).to eq false
     end
+    it "returns true if second arg is 1" do
+      expect(is_prime 4, 1 ).to eq true
+    end
   end
 
   
