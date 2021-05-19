@@ -11,4 +11,12 @@ describe "count_primes" do
   it "return the number 4 wich are the primes in the array" do
     expect(count_primes [1,2,3,4,5,6,7,8,9,10]).to eq 4
   end
+  
+  describe "is_prime" do
+    it "returns false if first arg is 1" do
+      expect(is_prime 1, 4 ).to eq false
+    end
+  end
+
+  
 end
