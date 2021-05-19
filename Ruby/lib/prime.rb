@@ -10,6 +10,7 @@ end
 
 def is_prime(item,number)
   return false if item == 1
+  return true if number == 1
   (2..(item-1)).each do |number|
     return false if item % number == 0
   end
