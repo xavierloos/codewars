@@ -3,14 +3,9 @@
 def count_primes array
   # You code here
   raise "List of number invalid" if !array.is_a? Array
-  total = 0
-  for item in array
-    is_prime = is_prime(item)
-    if is_prime == true
-      total = total+1
-    end
+  array.count do |item|
+    is_prime item
   end
-  total
 end
 
 def is_prime item
