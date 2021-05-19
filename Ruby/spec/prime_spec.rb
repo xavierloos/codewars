@@ -20,6 +20,4 @@ describe "count_primes" do
       expect(is_prime 4, 1 ).to eq true
     end
   end
-
-  
 end
