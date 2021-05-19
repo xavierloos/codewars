@@ -4,7 +4,7 @@ def count_primes array
   # You code here
   raise "List of number invalid" if !array.is_a? Array
   array.count do |item|
-    is_prime item
+    is_prime(item, number - 1)
   end
 end
 
