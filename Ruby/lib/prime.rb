@@ -8,7 +8,7 @@ def count_primes array
   end
 end
 
-def is_prime item
+def is_prime(item,number)
   return false if item == 1
   (2..(item-1)).each do |number|
     return false if item % number == 0
