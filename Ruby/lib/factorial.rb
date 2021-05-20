@@ -3,3 +3,7 @@
 # Example
 # input output
 # 5     120 (5*4*3*2*1 = 120)
+
+def factorial number
+  # Your code here
+end
