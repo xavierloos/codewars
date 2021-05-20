@@ -7,5 +7,10 @@
 def factorial number
   # Your code here
   raise "Wrong type of argument" if !number.is_a? Numeric
-  120
+  result = number
+  while number > 1 
+    result = result * (number-1)
+    number = number -1
+  end
+  result
 end
