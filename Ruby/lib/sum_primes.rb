@@ -2,10 +2,10 @@
 
 def sum_primes(array)
   raise "Argument should be an array" if !array.is_a? Array
-  0
+  array.select{|item| check_prime(item)}.reduce(:+)
 end
 
-def is_prime(item,number)
+def check_prime(item)
   return false if item == 1
   (2..(item-1)).each do |number|
     return false if item % number == 0
