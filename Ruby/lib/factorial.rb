@@ -6,4 +6,5 @@
 
 def factorial number
   # Your code here
+  0
 end
