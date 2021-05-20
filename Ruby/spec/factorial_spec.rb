@@ -10,4 +10,7 @@ describe "factorial" do
   it "returns 120 which is the factorial of 5" do
     expect(factorial 5).to eq 120
   end
+  it "returns 24 which is the factorial of 4" do
+    expect(factorial 4).to eq 24
+  end
 end
