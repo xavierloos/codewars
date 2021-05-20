@@ -6,5 +6,6 @@
 
 def factorial number
   # Your code here
+  raise "Wrong type of argument" if !number.is_a? Numeric
   0
 end
