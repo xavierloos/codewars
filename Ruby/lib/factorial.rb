@@ -11,6 +11,6 @@ def factorial number
   # (1..(number-1)).each do |item|
   #   result = result * item
   # end
-  number.downto(1).reduce(:*)
+  # number.downto(1).reduce(:*)
   # result
 end
