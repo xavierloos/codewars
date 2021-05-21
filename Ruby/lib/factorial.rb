@@ -15,4 +15,5 @@ def factorial number
   # result
   # return 1 if number == 0
   # return number * factorial(number - 1)
+  number == 0 ? 1 : number * factorial(number -1)
 end
