@@ -8,6 +8,8 @@ def factorial number
   # Your code here
   raise "Wrong type of argument" if !number.is_a? Numeric
   result = number
-  
+  (1..(number-1)).each do |item|
+    
+  end
   result
 end
