@@ -12,5 +12,4 @@ describe "repeated_digit" do
   it "should pass a Boolean" do
     expect(repeated_digit 14).to be_a_kind_ok(boolean)
   end
-  
 end
