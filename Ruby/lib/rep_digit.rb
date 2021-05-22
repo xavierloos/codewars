@@ -4,5 +4,6 @@
 # 445 => [4,4,5] => false
 
 def repeated_digit number
+  
   true
 end
