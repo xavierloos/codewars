@@ -5,5 +5,4 @@
 # 445 => [4,4,5] => NO REPEATED
 
 def repeated_digit number
-
 end
