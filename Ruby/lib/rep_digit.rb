@@ -5,4 +5,5 @@
 
 def repeated_digit number
   array = number.to_s.split("").map(&:to_i)
+  digit = array.first
 end
