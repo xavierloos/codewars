@@ -4,5 +4,5 @@
 # 445 => [4,4,5] => false
 
 def repeated_digit number
-  array = number
+  array = number.to_s
 end
