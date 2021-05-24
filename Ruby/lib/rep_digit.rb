@@ -8,9 +8,5 @@ def repeated_digit number
   array = number.to_s.split("").map(&:to_i)
   digit = array.first
   count = array.count{ |number| number != digit}
-  if count == 0
-    return true
-  else
-    return false
-  end
+  count == 0 ? true :  false 
 end
