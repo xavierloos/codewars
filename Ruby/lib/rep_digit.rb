@@ -6,7 +6,6 @@
 def repeated_digit number
   raise "Wrong type of argument" if !number.is_a? Numeric
   array = number.to_s.split("").map(&:to_i)
-  digit = array.first
-  array.count{ |number| number != digit} == 0
+  array.count{ |number| number != array.first} == 0
   count == 0 ? true :  false 
 end
