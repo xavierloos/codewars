@@ -8,5 +8,11 @@ def fibonacci count
   n1 = 0
   n2 = 1
   sequence = []
-  
+  while count > 2
+    n3 = n1 + n2
+    secuence << n3
+    n1 = n2
+    n2 = n3
+    count = count - 1
+  end
 end
