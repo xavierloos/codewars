@@ -1,7 +1,7 @@
 # Create a fibonacci function
 
 # the secuence should be
-#  0 1 1 2 3 5 8 13 21 34 55 88
+# 1 2 3 5 8 13 21 34 55 88
 
 def fibonacci count
   raise "Wrong type of argument" if !count.is_a? Integer
@@ -10,7 +10,7 @@ def fibonacci count
   sequence = []
   while count > 2
     n3 = n1 + n2
-    secuence << n3
+    sequence << n3
     n1 = n2
     n2 = n3
     count = count - 1
