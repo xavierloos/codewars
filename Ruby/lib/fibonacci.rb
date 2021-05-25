@@ -15,4 +15,5 @@ def fibonacci count
     n2 = n3
     count = count - 1
   end
+  sequence
 end
