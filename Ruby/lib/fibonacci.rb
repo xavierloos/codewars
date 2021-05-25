@@ -5,5 +5,8 @@
 
 def fibonacci count
   raise "Wrong type of argument" if !count.is_a? Integer
-  []
+  n1 = 0
+  n2 = 1
+  sequence = []
+  
 end
