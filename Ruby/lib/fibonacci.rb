@@ -25,4 +25,5 @@ def fibonacci count
     end
     sequence << sequence[-1] + secuence[-2]
   end
+  sequence
 end
