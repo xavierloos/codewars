@@ -5,15 +5,16 @@
 
 def fibonacci count
   raise "Wrong type of argument" if !count.is_a? Integer
-  n1 = 0
-  n2 = 1
-  sequence = []
-  while count > 2
-    n3 = n1 + n2
-    sequence << n3
-    n1 = n2
-    n2 = n3
-    count = count - 1
-  end
-  sequence
+  # n1 = 0
+  # n2 = 1
+  # sequence = []
+  # while count > 2
+  #   n3 = n1 + n2
+  #   sequence << n3
+  #   n1 = n2
+  #   n2 = n3
+  #   count = count - 1
+  # end
+  # sequence
+  
 end
