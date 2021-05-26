@@ -25,5 +25,9 @@ def fibonacci count
   # end
   # sequence
 
-  # Version 3 uysing recursively
+  # Version 3 using recursively
+  if count <= 1
+    return count
+  end
+  
 end
