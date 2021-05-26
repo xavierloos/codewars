@@ -18,4 +18,5 @@ def fibonacci count
   # sequence
 
   # Version 2
+  secuence = []
 end
