@@ -28,6 +28,8 @@ def fibonacci count
   # Version 3 using recursively
   if count <= 1
     return count
+  else
+    return fibonacci(count-1) + fibonacci(count-2)
   end
   
 end
