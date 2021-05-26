@@ -23,5 +23,6 @@ def fibonacci count
     if number <= 1
       sequence << number
     end
+    sequence << sequence[-1] + secuence[-2]
   end
 end
