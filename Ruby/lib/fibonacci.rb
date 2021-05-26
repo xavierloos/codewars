@@ -19,4 +19,7 @@ def fibonacci count
 
   # Version 2
   secuence = []
+  (0..count).each do |number|
+    
+  end
 end
