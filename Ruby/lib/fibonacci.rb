@@ -18,10 +18,12 @@ def fibonacci count
   # sequence
 
   # Version 2
-  sequence = []
-  (0..count).each do |number|
-    sequence << number if number <= 1
-    sequence << sequence[-1] + sequence[-2] if sequence.length > 1
-  end
-  sequence
+  # sequence = []
+  # (0..count).each do |number|
+  #   sequence << number if number <= 1
+  #   sequence << sequence[-1] + sequence[-2] if sequence.length > 1
+  # end
+  # sequence
+
+  # Version 3 uysing recursively
 end
