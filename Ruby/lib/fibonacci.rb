@@ -20,10 +20,8 @@ def fibonacci count
   # Version 2
   sequence = []
   (0..count).each do |number|
-    if number <= 1
-      sequence << number
-    end
-    sequence << sequence[-1] + secuence[-2]
+    sequence << number if number <= 1
+    sequence << sequence[-1] + sequence[-2]
   end
   sequence
 end
