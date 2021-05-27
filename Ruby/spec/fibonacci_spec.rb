@@ -4,7 +4,6 @@ describe "fibonacci" do
   # it "should return an array" do
   #   expect(fibonacci 9).to be_a_kind_of(Array)
   # end
-
    it "should return an array" do
     expect(fibonacci 9).to be_a_kind_of(Numeric)
   end
@@ -16,7 +15,7 @@ describe "fibonacci" do
   # it "shoul return the list of numbers" do
   #   expect(fibonacci 9).to eq [0, 1, 1, 2, 3, 5, 8, 13, 21,  34, 55]
   # end
-  
+
   
   it "shoul return the number" do
     expect(fibonacci 9).to eq 34
