@@ -4,10 +4,11 @@ describe "fibonacci" do
   # it "should return an array" do
   #   expect(fibonacci 9).to be_a_kind_of(Array)
   # end
+  
    it "should return an array" do
     expect(fibonacci 9).to be_a_kind_of(Numeric)
   end
-  
+
   it "raises an error if type of argument is different than an integer" do
     expect{ fibonacci "9"}.to raise_error "Wrong type of argument"
   end
