@@ -20,5 +20,4 @@ describe "fibonacci" do
   it "shoul return the number" do
     expect(fibonacci 9).to eq 34
   end
-
 end
