@@ -6,5 +6,6 @@
 
 def find_missing_number(arr)
 # Your code here
-0
+  raise "Wrong type of argument" if !arr.is_a? Array
+  0
 end
