@@ -3,3 +3,7 @@
 # Rules
 # => The list of numbers will be unsorted
 # => Only one number will be missing
+
+def find_missing_number(arr)
+# Your code here
+end
