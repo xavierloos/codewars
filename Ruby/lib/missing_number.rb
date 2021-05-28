@@ -6,4 +6,5 @@
 
 def find_missing_number(arr)
 # Your code here
+0
 end
