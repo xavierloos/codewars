@@ -5,7 +5,6 @@
 # => Only one number will be missing
 
 def find_missing_number(arr)
-# Your code here
   raise "Wrong type of argument" if !arr.is_a? Array
   list =[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
   list.each do |item|
