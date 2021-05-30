@@ -18,5 +18,4 @@ def find_missing_number(arr)
     end
     return item if found == false
   end
-  
 end
