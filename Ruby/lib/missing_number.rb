@@ -7,7 +7,7 @@
 def find_missing_number(arr)
   raise "Wrong type of argument" if !arr.is_a? Array
   
-  list.each do |item|
+  (1..10).each do |item|
     found = false
     arr.each do |number|
       if item == number
