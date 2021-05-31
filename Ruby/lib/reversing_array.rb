@@ -4,5 +4,6 @@
 
 def reverse(arr)
   raise "Wrong type of argument" if !arr.is_a? Array
-  []
+  reversed = []
+  position = arr.length-1
 end
