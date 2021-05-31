@@ -11,5 +11,7 @@ def find_missing_number(arr)
   #   return item unless arr.include?(item)
   # end
 
-  ((1..10).to_a - arr).join.to_i
+  # ((1..10).to_a - arr).join.to_i
+
+  55 - arr.reduce(:+)
 end
