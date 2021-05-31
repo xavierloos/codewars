@@ -6,8 +6,9 @@ def reverse(arr)
   raise "Wrong type of argument" if !arr.is_a? Array
   reversed = []
   position = arr.length-1
-  while position >= 1
+  while position >= 0
     reversed << arr[position]
     position = position - 1
   end
+  reversed
 end
