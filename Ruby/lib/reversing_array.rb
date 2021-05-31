@@ -7,6 +7,7 @@ def reverse(arr)
   reversed = []
   position = arr.length-1
   while position >= 1
-    
+    reversed << arr[position]
+    position = position - 1
   end
 end
