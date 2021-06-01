@@ -19,4 +19,7 @@ describe "find_missing_number" do
   it "should return a type of numeric" do
     expect(find_missing_number [1,4,5,2,7,9,6,8,10]).to eq 3
   end
+  it "should return a type of numeric" do
+    expect(find_missing_number [1,4,5,2,7,9,3,8,10]).to eq 6
+  end
 end
