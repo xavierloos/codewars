@@ -3,12 +3,11 @@
 # For example: month 2 (February), is part of the first quarter; month 6 (June), is part of the second quarter; and month 11 (November), is part of the fourth quarter.
 
 def quarter_of(month)
-  # code here
   case month
     when 1,2,3 then return 1
     when 4,5,6 then return 2
     when 7,8,9 then return 3
     else return 4
   end
-  
+
 end
