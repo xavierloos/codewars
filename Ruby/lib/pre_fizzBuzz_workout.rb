@@ -12,7 +12,6 @@ def pre_fizz(n)
   end
   arr
 end
-
 #What are the inputs to this function?
 
 #What are the expected outputs?
