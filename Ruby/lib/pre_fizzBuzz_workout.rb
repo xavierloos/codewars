@@ -7,7 +7,6 @@
 # Your job is to write an algorithm that gets you from the input to the output.
 
 def pre_fizz(n)
-  # Your code here
   arr = []
   1.upto(n) do |i|
     arr << i
