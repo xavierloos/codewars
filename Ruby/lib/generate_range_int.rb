@@ -13,7 +13,7 @@
 # the range does not HAVE to include max (depending on the step)
 
 def generate_range(min, max, step)
-  arr = []  #Create an array 
+  arr = []
   while min <= max do
     arr << min
     min += step
