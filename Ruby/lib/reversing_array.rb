@@ -10,5 +10,6 @@ def reverse(arr)
     reversed << arr[position]
     position = position - 1
   end
+  
   reversed
 end
