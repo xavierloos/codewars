@@ -19,5 +19,6 @@ def generate_range(min, max, step)
     arr << min
     min += step
   end
+  
   arr
 end
