@@ -6,7 +6,6 @@ Input                   Output
  5, [5,6,7,1,2] => 2 (5 is not greater than 5 so it does not count)
 =end
 def greater_than number, array
-  # Your code here
   raise "Invalid number or negative" if !number.is_a? Numeric or number <=0
   raise "Invalid argument or empty" if !array.is_a? Array or array == []  
   array.count do |item|
