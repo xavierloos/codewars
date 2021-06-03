@@ -13,7 +13,6 @@ Example
 }
 =end
 def fizzbuzz num
-  # Your code here
   raise "Input invalid" if num < 1 
 
   hash = Hash.new
