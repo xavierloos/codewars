@@ -3,7 +3,6 @@
  Write function alternateCase which switch every letter in string from upper to lower and from lower to upper. E.g: Hello World -> hELLO wORLD
 =end
 def alternate_case(s)
-  #your code here
   alter = []
   for letter in s.split("")
     letter == letter.upcase() ? alter << letter.downcase : alter << letter.upcase
